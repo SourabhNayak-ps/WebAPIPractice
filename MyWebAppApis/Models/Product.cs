@@ -1,0 +1,12 @@
+﻿using System;
+namespace MyWebAppApis.Models
+{
+    public class Product
+    {
+        public int Id { get; set; }
+        public string ProductName { get; set; } = String.Empty;
+        public string ShortDescription { get; set; } = String.Empty;
+        public decimal Price { get; set; }
+    }
+}
+
